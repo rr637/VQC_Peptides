@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import csv
 import random
 
-#assuming r=1,
+#assuming r=1
 def cartesian_to_spherical(x, y, z):
     theta = math.acos(z / 1)  
     phi = math.atan2(y, x)

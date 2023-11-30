@@ -17,7 +17,7 @@ export OMP_PROC_BIND=spread
 . /global/homes/r/rr637/miniconda3/condabin/conda
 
 #run the application:
-#applications may perform better with --gpu-bind=none instead of --gpu-bind=single:1 
+# applications may perform better with --gpu-bind=none instead of --gpu-bind=single:1 
 conda activate SULI
 # srun -n 1 -c 128 --cpu_bind=cores -G 1 --gpu-bind=single:1 /global/u2/r/rr637/QPPAI-FL/QFL-DP.py
 python /global/u2/r/rr637/VQC_Peptides/VQC_Test_Data.py
