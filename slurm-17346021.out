@@ -14,8 +14,6 @@ Currently supported shells are:
 
 See 'conda init --help' for more information and options.
 
-IMPORTANT: You may need to close and restart your shell after running 'conda init'.
-
 
 Traceback (most recent call last):
   File "/global/u2/r/rr637/VQC_Peptides/VQC_Test_Data.py", line 48, in <module>
